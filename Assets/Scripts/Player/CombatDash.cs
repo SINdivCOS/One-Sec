@@ -15,7 +15,7 @@ public class CombatDash : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse1))
+        if (Input.GetKeyDown(KeyCode.Z))
         {
             animator.SetBool("canAtk",true);
             animator.SetTrigger("isAtk1");

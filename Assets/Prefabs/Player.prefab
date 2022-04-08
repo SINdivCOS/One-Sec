@@ -226,6 +226,7 @@ GameObject:
   - component: {fileID: 6841815199468720586}
   - component: {fileID: 6841815199468720587}
   - component: {fileID: 6841815199468720584}
+  - component: {fileID: 910194277}
   m_Layer: 0
   m_Name: Skin
   m_TagString: Untagged
@@ -241,7 +242,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6841815199468720589}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.072251745, z: 5.274382}
+  m_LocalPosition: {x: 0, y: 0.072251745, z: 11.22}
   m_LocalScale: {x: 1.0233096, y: 1.0233096, z: 1.0233096}
   m_Children: []
   m_Father: {fileID: 6841815198936388287}
@@ -317,6 +318,22 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!70 &910194277
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6841815199468720589}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 5.7083898, y: 1.4042785}
+  m_Size: {x: 15.659635, y: 1.8735459}
+  m_Direction: 1
 --- !u!1 &6841815200635460407
 GameObject:
   m_ObjectHideFlags: 0
