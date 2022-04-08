@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6841815198936388287}
   - component: {fileID: 6841815198936388284}
+  - component: {fileID: 1851854515352660905}
   - component: {fileID: 840828592495816096}
   - component: {fileID: 6841815198936388280}
   - component: {fileID: 6841815198936388283}
@@ -61,6 +62,19 @@ Rigidbody2D:
   m_SleepingMode: 0
   m_CollisionDetection: 1
   m_Constraints: 4
+--- !u!114 &1851854515352660905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6841815198936388273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d864103761726c42bff019b0b13f6fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 6841815199468720584}
 --- !u!114 &840828592495816096
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74,7 +88,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  jumpingPower: 16
+  jumpingPower: 17
   rb: {fileID: 6841815198936388284}
   groundCheck: {fileID: 6841815199000622334}
   groundLayer:
@@ -107,7 +121,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a765162c3f7516458fbaadec9f72d21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpVelocity: 17
+  jumpVelocity: 18.8
 --- !u!114 &6841815198936388281
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -7,6 +7,7 @@ using UnityEngine;
 public class FlyToPlayer : MonoBehaviour
 {
     private GameObject player_obj;
+    //private Rigidbody2D rb;
     public Transform startingPoint;
     public Animator animator;
 
@@ -17,6 +18,7 @@ public class FlyToPlayer : MonoBehaviour
     void Start()
     {
         player_obj = GameObject.FindGameObjectWithTag("Player");
+        //rb = GetComponent<Rigidbody2D>();
     }
 
     private void Update()

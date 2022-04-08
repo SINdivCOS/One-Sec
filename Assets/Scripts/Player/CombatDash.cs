@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class CombatDash : MonoBehaviour
 {
+    [SerializeField]private Animator animator;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +15,10 @@ public class CombatDash : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Mouse1))
+        {
+            animator.SetBool("canAtk",true);
+            animator.SetTrigger("isAtk1");
+        }
     }
 }

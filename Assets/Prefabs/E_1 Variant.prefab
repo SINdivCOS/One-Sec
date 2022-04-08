@@ -154,7 +154,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 5136069905930387998}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 18.424}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -701.576}
 --- !u!1 &1447252643
 GameObject:
   m_ObjectHideFlags: 0
@@ -644,6 +644,22 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8424638377242392072, guid: 6a680ad3ca458ba44b8f0340900da812, type: 3}
   m_PrefabInstance: {fileID: 3625851481130157606}
   m_PrefabAsset: {fileID: 0}
+--- !u!70 &1820195699
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2333823757632416310}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.42014578, y: 0.07241513}
+  m_Size: {x: 0.57696474, y: 1.9738189}
+  m_Direction: 0
 --- !u!50 &837301693
 Rigidbody2D:
   serializedVersion: 4
@@ -717,7 +733,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 088defabe77193f4bb8892caf4276f75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyPos: {fileID: 0}
   startingPoint: {fileID: 0}
   animator: {fileID: 1806427146}
   chase: 0
@@ -744,23 +759,7 @@ CapsuleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6997762718561054198}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.42014578, y: 0.07241513}
-  m_Size: {x: 0.57696474, y: 1.9738189}
-  m_Direction: 0
---- !u!70 &1820195699
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2333823757632416310}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
